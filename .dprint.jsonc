@@ -1,0 +1,23 @@
+{
+  "indentWidth": 2,
+  "lineWidth": 120,
+  "newLineKind": "auto",
+  "useTabs": false,
+  "typescript": {
+    "newLineKind": "crlf",
+    "semiColons": "always",
+    "quoteProps": "asNeeded",
+    "singleBodyPosition": "maintain",
+    "nextControlFlowPosition": "maintain", // Check/discuss
+    "operatorPosition": "maintain",
+    "arrowFunction.useParentheses": "preferNone",
+    "conditionalExpression.linePerExpression": false, // Keep our "match/case"-ish conditionals.
+    "functionExpression.spaceAfterFunctionKeyword": true,
+    "exportDeclaration.forceMultiLine": "whenMultiple",
+    "importDeclaration.forceMultiLine": "whenMultiple",
+    "constructorType.spaceAfterNewKeyword": true,
+    "constructSignature.spaceAfterNewKeyword": true
+  },
+
+  "plugins": ["https://plugins.dprint.dev/typescript-0.93.0.wasm"]
+}
